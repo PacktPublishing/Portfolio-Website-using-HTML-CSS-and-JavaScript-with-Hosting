@@ -62,8 +62,6 @@ html{
     animation: mouseDotAnimation 10s infinite linear;
 }
 
-
-
 @keyframes mouseDotAnimation{
     0%{
         width:.5rem;
@@ -78,7 +76,6 @@ html{
         height: .5rem;
     }
 }
-
 
 body{
     background-color: #000;
