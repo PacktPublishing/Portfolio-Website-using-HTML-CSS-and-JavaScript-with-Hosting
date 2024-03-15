@@ -59,7 +59,10 @@ html{
     width: .5rem;
     height: .5rem;
     background-color: #f11532;
+    animation: mouseDotAnimation 10s infinite linear;
 }
+
+
 
 @keyframes mouseDotAnimation{
     0%{
@@ -76,23 +79,12 @@ html{
     }
 }
 
-.mouse-dot{
-    animation: mouseDotAnimation 10s infinite linear;
-}
-
-.5rem;;
-    }
-}
 
 body{
     background-color: #000;
     overflow: hidden;
 }
-
- {
-    
-}
-
+/* page background */
 .page-bg{
     position: fixed;
     width: 100%;
