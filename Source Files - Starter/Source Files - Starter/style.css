@@ -22,18 +22,75 @@ html{
     border-radius: 50%;
     position: fixed;
     z-index: 300;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes mouseCircleAnimation{
+    0%{
+        width:6rem;
+        height: 6rem;
+    }
+    25%{
+        width:8rem;
+        height: 8rem;    
+    }
+    35%{
+        width: 4rem;
+        height: 4rem;
+    }
+    70%{
+        width: 8rem;
+        height: 8rem;
+    }
+    100%{
+        width:6rem;
+        height: 6rem;
+    }
 }
 
 .mouse-circle{
     width: 6rem;
     height: 6rem;
     border: 0.3rem solid #87ce4d;
+    animation: mouseCircleAnimation 10s infinite linear;
 }
 
 .mouse-dot{
     width: .5rem;
     height: .5rem;
     background-color: #f11532;
+}
+
+@keyframes mouseDotAnimation{
+    0%{
+        width:.5rem;
+        height: .5rem;
+    }
+    55%{
+        width:1.5rem;
+        height:1.5rem;
+    }
+    100%{
+        width:.5rem;
+        height: .5rem;
+    }
+}
+
+.mouse-dot{
+    animation: mouseDotAnimation 10s infinite linear;
+}
+
+.5rem;;
+    }
+}
+
+body{
+    background-color: #000;
+    overflow: hidden;
+}
+
+ {
+    
 }
 
 .page-bg{
@@ -44,8 +101,4 @@ html{
     color: rgba(250, 248, 248, 0.774);
 }
 
-.h1{
-    color: #299b5c;
-    z-index: 400;
-}
 
