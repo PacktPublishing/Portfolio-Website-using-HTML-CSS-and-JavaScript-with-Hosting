@@ -16,13 +16,18 @@ html{
     font-size: 62.5%;
     font-palette: white;
 }
+
+.mouse-circle,
+.mouse-dot{
+    border-radius: 50%;
+    position: fixed;
+    z-index: 300;
+}
+
 .mouse-circle{
     width: 6rem;
     height: 6rem;
     border: 0.3rem solid #87ce4d;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 300;
 }
 
 .mouse-dot{
@@ -30,8 +35,6 @@ html{
     height: .5rem;
     background-color: #f11532;
 }
-
-
 
 .page-bg{
     position: fixed;
