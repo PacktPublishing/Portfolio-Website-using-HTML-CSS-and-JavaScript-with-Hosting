@@ -42,3 +42,13 @@ document.body.addEventListener('mousemove', (e) => {
 
   mouseCircleFn(x,y);
 });
+
+document.body.addEventListener('mouseleave',
+() => {
+  mouseCircle.style.opacity = `0`;
+  mouseDot.style.opacity = `0`;}); 
+
+document.body.addEventListener('mouseenter',
+() => {
+  mouseCircle.style.opacity = `1`;
+  mouseDot.style.opacity = `1`;});
